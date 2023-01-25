@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+html{
+    background-color: rgb(220, 213, 213);
+    color: rgb(77, 36, 110);
+}
+body{
+    width: 700px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+a { text-decoration: none; 
+    color: #0e0707;
+}
+.nav{ 
+    font-size: 150%;
+        padding: 0.1em 0.3em;
+        position: relative;
+        display: inline-flex;
+        color: #be1212;
+    }
+    .nav::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: #de1d4d;
+        transition: .3s;
+    }
+    .nav:hover::after {
+        width: 100%;
+    }
+
+img{
+    float: left;
+}
+li.nav:hover{
+    font-size: 150%;
+}
+.bunnkouramen{
+    background: #f9f7df;
+    padding: 10px;
+    overflow: hidden;
+}
+.tyannponn{
+    background: rgb(200, 123, 123);
+    overflow: hidden;
+}
+.kuro{
+    background: #8694bd;
+    overflow: hidden;
+}
+.BNK{
+    width: 200px;
+    height: auto;
+}
+h2{
+    border: 10px outset rgb(140, 236, 159);
+    width: 300px;
+    margin: auto;
+}
+.akusesu{
+    margin-top: 30px;
+}
+.TZP{
+    width: 430px;
+    margin-top: 10px;
+    
+}
+.juusyo{
+    margin-top: 100px;
+    background: #de93a4;
+}
+h3{
+    background: #cad575;
+    margin: 5%;
+}
+h3::before{content: "🍜";}
+table,th,td{
+    border: 1px solid;
+}
+.syoukai{
+background-color: aliceblue;
+}
+.yakimesibunn{
+    background: #f9b2c3;
+}
